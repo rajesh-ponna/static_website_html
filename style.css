@@ -1,0 +1,201 @@
+body{
+    background-image: url("1.jpg");
+    background-size:cover;
+}
+
+.nav {
+    display: flex;  
+    justify-content:space-around;
+    height:70px;
+    width:auto;
+    align-items:center;
+    /* background-color: aliceblue; */
+    
+}
+
+/* .text-container {
+    display: flex;  
+    justify-content:space-around;
+
+} */
+
+.search-container{
+    display: flex;
+    height: 40px;
+}
+.nav a:hover{
+    color: brown
+
+}
+
+input[type='search']{
+    width:250px;
+    height: 100%;
+    font-size: large;
+    border: 1px solid red;
+    outline: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+input[type='submit']{
+    /* visibility: hidden; */
+    width:75px;
+    height: 100%;
+    font-size: large;
+    color:black;
+    background-color: red;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+a {
+    color: aliceblue;
+    font-weight:5px;
+    text-decoration: none;
+}
+
+.logo{color: red;
+    font-size: xx-large;
+
+}
+
+
+.signup{
+    color: red;
+}
+.login{
+     visibility: hidden; 
+    background-color: aliceblue;
+    width: 100px;
+    height: 100px;
+}
+.white {
+    font-size: 55px;
+    color: aliceblue;
+    font-weight:bolder;
+
+   
+}
+.red{
+    font-size: 60px;
+    color: red;
+    font-weight:bolder;
+    
+}
+.small{
+    font-size: 18px;
+    opacity: 0.7;
+    line-height: 40px;
+}
+
+.text{
+    display: block;
+    height: 360px;
+    width: 805px;
+    letter-spacing: 2px;
+    /* background-color: rgb(20, 36, 49); */
+    margin-right: auto;
+    margin-left: 50px;
+}
+.container2{
+    width: auto;
+    height: 480px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end; 
+}
+    
+.joinus{
+    width: 150px; 
+    height: 40px; 
+    border-radius: 10px; 
+    text-align: center;  
+    background-color: orange;  
+}
+
+.loginbtn{
+    width:258px;
+    height: 45px;
+    border-radius: 10px; 
+    text-align: center;  
+    background-color: orange; 
+    font-weight:bolder; 
+    font-size: large;
+}
+
+input[type='username']{
+    width:250px;
+    height: 30px;
+    border-radius: 8px;
+    color: white;
+    font-size: medium;
+    outline: 7px red;
+
+}
+input[type='password']{
+    width:250px;
+    height: 30px;
+    border-radius: 8px;
+    color: white;
+    font-size: medium;
+
+}
+
+.modal{
+    background-color: black;
+    width: 300px;
+    height:350px;
+    margin-left: auto;
+    margin-right: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0.7;
+    display: flex;  
+    flex-direction: column;
+    text-align: center;
+
+    justify-content: space-around;
+}
+
+.lables-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    
+    height: 160px   ;
+    /* background-color: aliceblue; */
+}
+.text-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    line-height: 10px;
+    /* background-color: gray; */
+    font-size: larger;
+}
+.account{
+    line-height:2px;
+    
+}
+
+.icons-container{
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+    
+
+
